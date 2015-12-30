@@ -5,6 +5,9 @@ Basic Demo of [Meteor 1.3 (NPM support)](https://forums.meteor.com/t/meteor-1-3-
 
 [Live Demo](https://graphql-postgres-demo.meteor.com) (Not currently working due to Galaxy not working with Meteor 1.3 and NPM Packages)
 
+View GraphiQL locally at: <br>
+`http://localhost:3000/graphql/ide?schema=World`
+
 ## Usage
 
 * clone the repository
