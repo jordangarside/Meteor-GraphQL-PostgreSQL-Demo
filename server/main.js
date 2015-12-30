@@ -6,8 +6,8 @@ const {
 	GraphQLNonNull
 } = GraphQL.types;
 
-import Sleep from "./imports/Tools/Sleep/Sleep.js";
-import Promisify from "./imports/Tools/Promisify/Promisify.js";
+/* import Sleep from "./imports/Tools/Sleep/Sleep.js"; */
+/* import Promisify from "./imports/Tools/Promisify/Promisify.js"; */
 import { Human } from "./imports/GraphQL/types.js";
 
 import WorldDB from "./database.js";
