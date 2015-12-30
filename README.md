@@ -14,4 +14,4 @@ Basic Demo of [Meteor 1.3 (NPM support)](https://forums.meteor.com/t/meteor-1-3-
 ## Credits
 
 + Lee Benson for this [YouTube Video](https://www.youtube.com/watch?v=DNPVqK_woRQ) on GraphQL+Sequelize
-+ Arunoda for [Meteor GraphQL](https://github.com/kadirahq/meteor-graphql) Support
++ Arunoda for [Meteor GraphQL](https://github.com/kadirahq/meteor-graphql) Support and [Demos](https://github.com/kadira-samples/meteor-graphql-demo)
