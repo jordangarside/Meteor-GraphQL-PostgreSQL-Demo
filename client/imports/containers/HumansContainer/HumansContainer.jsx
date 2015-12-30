@@ -1,4 +1,5 @@
 
+import Human from '../../components/Human/Human.jsx';
 import Humans from '../../components/Humans/Humans.jsx';
 import { WorldSchema } from '../../GraphQL/schemas.js';
 
@@ -9,7 +10,7 @@ let HumansContainer = GraphQL.bindData((props, onData) => {
 HumansContainer.query = `
 	{
 		humans {
-			...${Humans.fragment}
+			...${Human.fragment}
 		}
 	}
 `;

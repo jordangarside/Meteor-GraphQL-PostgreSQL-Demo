@@ -10,12 +10,4 @@ let Humans = ({humans}) => (
 	</ul>
 );
 
-Humans.fragment = WorldSchema.createFragment(`
-	fragment on Human {
-		id,
-		firstName,
-		lastName
-	}
-`);
-
 export default Humans;

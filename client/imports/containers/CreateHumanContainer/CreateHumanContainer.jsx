@@ -1,6 +1,6 @@
 import Faker from 'faker';
 
-import {WorldSchema} from '../../GraphQL/schemas.js';
+import { WorldSchema } from '../../GraphQL/schemas.js';
 import HumansContainer from '../HumansContainer/HumansContainer.jsx';
 
 let CreateHumanContainer = class extends React.Component {
