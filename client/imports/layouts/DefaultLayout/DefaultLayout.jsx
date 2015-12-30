@@ -7,9 +7,9 @@ let DefaultLayout = ({content}) => (
 			<h1>Blah Blah Blah</h1>
 		</header>
 		<div>
-			{content}
 			<CreateHumanContainer />
 			<br />
+			{content}
 		</div>
 		<footer>
 			This blog is powered by GraphQL, Lokka & Meteor
