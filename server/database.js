@@ -3,11 +3,11 @@ import _ from 'lodash';
 import Faker from 'faker';
 
 const postgresConnection = new Sequelize(
-	'World',
-	'animal',
+	'World', // Database Name
+	'animal', // Database Admin
 	'postgres', {
 		dialect: 'postgres',
-		host: 'localhost'
+		host: 'localhost' // Database Location
 	}
 );
 
@@ -23,6 +23,7 @@ const Human = postgresConnection.define('human', {
 });
 
 postgresConnection.sync({force: true}).then(() =>{
+	// Create some fake data
 	_.times(10, ()=>{
 		return Human.create({
 			firstName: Faker.name.firstName(),
