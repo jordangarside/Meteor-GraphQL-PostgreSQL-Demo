@@ -3,11 +3,15 @@ import _ from 'lodash';
 import Faker from 'faker';
 
 const postgresConnection = new Sequelize(
-	'World', // Database Name
-	'animal', // Database Admin
-	'postgres', {
+	'd6gq88faq8ql6d', // Database Name
+	'hegkyhjibpyubg', // Database Admin
+	'x-7f3dNVO5RWTStANQckeYD1tI', // Database Password
+	{
+		host: 'ec2-107-22-170-249.compute-1.amazonaws.com', // Database Location
 		dialect: 'postgres',
-		host: 'localhost' // Database Location
+		dialectOptions: {
+			ssl: true
+		}
 	}
 );
 
