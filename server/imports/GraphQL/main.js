@@ -2,6 +2,7 @@ const {
 	GraphQLSchema,
 	GraphQLObjectType,
 	GraphQLString,
+	GraphQLInt,
 	GraphQLList,
 	GraphQLNonNull
 } = GraphQL.types;
@@ -24,12 +25,12 @@ const query = new GraphQLObjectType({
 			type: Human,
 			args: {
 				id: {
-					type: new GraphQLNonNull(GraphQLString)
+					type: new GraphQLNonNull(GraphQLInt)
 				}
 			},
 			resolve(root, args) {
 				// TODO: Postgres resolve
-				let person = WorldDB.models.human.findAll({where: {id: args.id}});
+				let person = WorldDB.models.human.findById(args.id);
 				return person;
 			}
 		}
