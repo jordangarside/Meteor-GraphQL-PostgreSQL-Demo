@@ -3,7 +3,7 @@ Meteor GraphQL PostgreSQL Demo
 
 Basic Demo of Meteor 1.3 (NPM support) with React, Lokka, GraphQL, PostgreSQL
 
-[Live Demo](graphql-postgres-demo.meteor.com)
+[Live Demo](https://graphql-postgres-demo.meteor.com)
 
 ## Usage
 
