@@ -1,8 +1,6 @@
 const {
-	GraphQLSchema,
 	GraphQLObjectType,
 	GraphQLString,
-	GraphQLList,
 	GraphQLNonNull
 } = GraphQL.types;
 
