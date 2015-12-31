@@ -14,6 +14,11 @@ Basic Demo of [Meteor 1.3 (NPM support)](https://forums.meteor.com/t/meteor-1-3-
 View GraphiQL locally at: <br>
 `http://localhost:3000/graphql/ide?schema=World`
 
+## TODO
+
++ Latency Compensation:<br>
+Not Currently working because Lokka requires the cached item to be identical to what's received from GraphQL. Since IDs aren't randomly generated with Postgres (as opposed to Mongo) you can't just supply an ID for the server to insert. This could be worked around by only requesting data that doesn't include the ID and then inserting that into the cache.
+
 ## Credits
 
 + Lee Benson for this [YouTube Video](https://www.youtube.com/watch?v=DNPVqK_woRQ) on GraphQL+Sequelize
